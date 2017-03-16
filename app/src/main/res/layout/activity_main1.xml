@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ycl.car.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000">
+
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center|top"
+                android:drawableLeft="@mipmap/qiyewenhua1_2x"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/toolbar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="top|right"
+                android:gravity="center"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/toolbar_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/toolbar_head"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/touxiang2_2x" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="账号"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.ycl.car.view.ProhibitScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tl_bottom"
+        android:layout_below="@+id/layout_top" />
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg"
+        android:padding="8dp"
+        app:tl_iconMargin="1dp"
+        app:tl_indicator_height="0dp"
+        app:tl_textSelectColor="#FFFF00"
+        app:tl_textUnselectColor="#ffffff"
+        app:tl_textsize="12sp"
+        app:tl_underline_height="0dp" />
+</RelativeLayout>

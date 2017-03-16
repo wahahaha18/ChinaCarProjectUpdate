@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">中汽工程</string>
+    <string-array name="aa">
+        <item>aa</item>
+        <item>bb</item>
+        <item>cc</item>
+        <item>dd</item>
+    </string-array>
+</resources>

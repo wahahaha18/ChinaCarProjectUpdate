@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#50000000"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="通知"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_more_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/yellow" />
+
+
+        <TextView
+            android:id="@+id/tv_more1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="更多+"
+            android:textColor="#ffff00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#50000000"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="报警信息"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_more_warn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/tv_more2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="更多+"
+            android:textColor="#ffff00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_pm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#50000000"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="PM"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_more_pm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/tv_more3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="更多+"
+            android:textColor="#ffff00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_tpm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#50000000"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="TPM"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_more_tpm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/tv_more4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="更多+"
+            android:textColor="#ffff00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_repair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#50000000"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="维修信息"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_more_repair"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/tv_more5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="更多+"
+            android:textColor="#ffff00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#50000000"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="消息"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_more_notification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/tv_more6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="更多+"
+            android:textColor="#ffff00" />
+
+    </LinearLayout>
+</LinearLayout>

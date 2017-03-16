@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_alarm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/spacer_medium"
+    android:minHeight="50dp"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="名称" />
+
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="品牌" />
+
+    <TextView
+        android:id="@+id/tv03"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="材质" />
+
+    <TextView
+        android:id="@+id/tv04"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="型号" />
+
+    <TextView
+        android:id="@+id/tv05"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="类型" />
+
+    <TextView
+        android:id="@+id/tv06"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="寿命    " />
+
+    <TextView
+        android:id="@+id/tv07"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="供货周天" />
+
+    <TextView
+        android:id="@+id/tv08"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="备注" />
+
+    <TextView
+        android:id="@+id/tv09"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="现存数量" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="建议保有量" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="最低保有量" />
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="单位" />
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="最后入库" />
+
+    <TextView
+        android:id="@+id/tv14"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="最后出库" />
+
+
+</LinearLayout>

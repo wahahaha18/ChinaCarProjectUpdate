@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ycl.car.MainActivity">
+
+
+    <!--<com.ycl.car.view.ProhibitScrollViewPager-->
+    <!--android:id="@+id/viewpager"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_above="@+id/tl_bottom" />-->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tl_bottom" />
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg"
+        android:padding="8dp"
+        app:tl_iconMargin="1dp"
+        app:tl_indicator_height="0dp"
+        app:tl_textSelectColor="#FFFF00"
+        app:tl_textUnselectColor="#ffffff"
+        app:tl_textsize="12sp"
+        app:tl_underline_height="0dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000">
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center|top"
+
+            android:clickable="true"
+            android:drawableLeft="@mipmap/qiyewenhua1_2x"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="top|right"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tl_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:src="@mipmap/shuru_3x"
+        app:fabSize="mini" />
+</RelativeLayout>

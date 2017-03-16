@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#0055a5"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="收藏"
+        android:textColor="@color/white" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:foreground="@drawable/ripple_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="举报"
+        android:textColor="@color/white" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:foreground="@drawable/ripple_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="发新帖"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
